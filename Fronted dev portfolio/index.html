@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Fronted Dev NS</title>
+    
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color: rgb(158, 156, 155)">
+
+  <video autoplay muted loop playsinline class="back-video">
+        <source src="pv.g/your-video.mp4.mp4" type="video/mp4">
+    </video>
+
+<section class="about-topper">
+<div class="about-top">
+<h1 style="font-style: italic;" style="text-decoration: wavy;">Fronted Dev Portfolio </h1>
+<p><h4>This is a simple portfolio website where I showcase my projects, skills and leaning in JavaScript and React JS.</h4></p>
+</div>
+</section>
+
+
+<section class="about-section">
+  <div class="about-text">
+<p>
+    <h3 style="color: rgb(127, 155, 155);"> Hey there, I’m Nafiul, a frontend development learner who is currently exploring JavaScript and React-JS.</h3>
+       <h3 style="color: rgb(127, 155, 155);">  I started my journey by learning the basics of HTML and JS.
+I like experimenting with small projects such as mini apps and JavaScript logic demos. Each project helps me better understand how the web works behind the scenes.
+
+I’m motivated to keep learning, improve my skills.</h3>
+</p>
+ </div>
+
+  <div class="profile-box" style="color: aqua;">
+    <img src="pv.g/myphoto.jpg.png" alt="My Photo" class="profile-img">
+
+    <div class="profile-info">
+      <h3>S M Nafiul Islam</h3>
+      <p>Frontend Developer (Beginner)</p>
+      <p>Learning JavaScript & React-JS</p>
+    </div>
+  </div>
+</section>
+<br>
+
+<p><h4 style="color: darkslategrey;">List of projects I have worked on.<h4></p>
+<ul>
+    <li style="color: gray;">Calculator & Counter App</li>
+    <li style="color: gray;">Weather app</li>
+</ul>
+
+
+<section class="projects">
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>Simple Calculator</h3>
+      <div class="calculator">
+        <input type="text" id="calc-display" readonly>
+        <div class="calc-buttons">
+          <button onclick="addValue('1')">1</button>
+          <button onclick="addValue('2')">2</button>
+          <button onclick="addValue('3')">3</button>
+          <button onclick="addValue('+')">+</button>
+
+          <button onclick="addValue('4')">4</button>
+          <button onclick="addValue('5')">5</button>
+          <button onclick="addValue('6')">6</button>
+          <button onclick="addValue('-')">-</button>
+
+          <button onclick="addValue('7')">7</button>
+          <button onclick="addValue('8')">8</button>
+          <button onclick="addValue('9')">9</button>
+          <button onclick="addValue('*')">*</button>
+
+          <button onclick="clearCalc()">C</button>
+          <button onclick="addValue('0')">0</button>
+          <button onclick="calculate()">=</button>
+          <button onclick="addValue('/')">/</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h3>Counter App</h3>
+      <p id="count">0</p>
+      <button onclick="increase()">+</button>
+      <button onclick="decrease()">-</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+
+  </div>
+</section>
+
+<div class="project-card">
+  <h3>Weather App</h3>
+  <input type="text" id="city" placeholder="Enter city">
+  <button onclick="getWeather()">Get Weather</button>
+  <p id="weather-result"></p>
+</div>
+
+   <br>
+   <br>
+
+   <h4 style="color: rgb(211, 195, 195);">
+    Get in touch
+   </h4>
+   <ul>
+    <li style="color: white;">Email     : nafiulislamshish2@gmail.com</li>
+    <li style="color: white;">Facebook  : S M Nafiul Islam</li>
+    <li style="color: white;">Instagram : itz_nafiul_02</li>
+    
+   </ul>
+
+<script src="script.js"></script>
+</body>
+</html>
